@@ -15,10 +15,10 @@ export default function AlbunsPage() {
   res();
   
   }, [])
-  console.log(albums)
+  
   return(<>
     <Header />
-    <Table type={"album"}
+    <Table 
     data={albums}
     type="Albums"
     columns={[{

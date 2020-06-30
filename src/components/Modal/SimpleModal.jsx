@@ -50,7 +50,7 @@ const ModalStyle = {
 
 
 export default function SimpleModal(props) {
-  const [open, setOpen] = useState(props.open)
+  const [open] = useState(props.open)
 
   return(<Modal
     isOpen={open}
